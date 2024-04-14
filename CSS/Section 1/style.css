@@ -1,0 +1,96 @@
+/*
+Selector {
+	Property: value;
+}
+*/
+
+/*When making Css the top should be the most generic*/
+
+/*Ids in HTML are unique identifiers*/
+
+/*
+* means all elements
+*/
+
+/*
+element element2
+means all eloment2s in a element
+*/
+
+/*
+element > element2
+this says all elements that have a parent of h2
+*/
+
+/*
+element + element2
+all element2s right after an element
+*/
+
+
+/*
+.class:firstchild
+*/
+
+/*
+!important
+this means that it overrides all css rules
+*/
+
+body {
+	background-image: url(mountains.avif);
+	background-size: cover;
+}
+
+h2, p {
+	color: #AA4139;
+	text-align: center;
+	border: 5px solid rgba(255, 176, 170, 0.5);
+	cursor: pointer;
+}
+
+p {
+	line-height: 50px;
+	font-style:italic;
+	font-weight: bold;
+	font-size: 100%;
+	font-family: "Roboto", sans-serif;
+}
+
+img {
+	float: left;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+.webtext {
+	border: 5px dashed green;
+}
+
+.active {
+	color: red;
+}
+
+#div1 {
+	background: rgba(0, 0, 255, .25);
+}
+
+#div2 {
+	background: rgba(255, 0, 0, .25);
+}
+
+
+
+
+
+
+
+
