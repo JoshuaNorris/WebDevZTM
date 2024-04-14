@@ -1,0 +1,9 @@
+
+HTML5
+	h1-h6
+
+	ol is ordered list
+	ul is unordered (so without numbers)
+
+	form is normally set to get meaning the info is put in the link
+	
