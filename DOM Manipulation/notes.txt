@@ -1,0 +1,77 @@
+
+
+The doument is the thing we seen in the browser
+
+Javascript can
+	change all HTML elements in the page
+	change all HTML attributes in page
+	change all CSS styles
+	removu existing html elements and attributes
+	add new HTML elements and attributes
+	react to all existing HTML events in the page
+	create new HTML events in the page
+
+The DOM is something the browser creates that allows us to update HTML and CSS
+
+the window is the parent object te the DOM
+
+
+DOM SELECTORS
+
+getELementsByTagName
+	accepts a tag name (like h1)
+getELementsByClassName("classname")
+getElementById
+
+QuerySelector
+	this selects one(thi first) teh elements of a certain type
+QuerySelectorAll
+	THese both work with any CSS selectors
+
+getAttribute
+	querySelector("li").getAttribute("width");
+setAttribute
+	querySelector("li").setAttribute("width", "100");
+
+style.{property} = 	"yello"
+
+While we can do this... it is better to use the below functions
+
+var h1 = decument.querySelector("h1")
+h1.className = "cootTitle";
+
+var h1 = document.querySelector("li").classList;
+returns a list of the classes
+
+var h1 = document.querySelector("li").classList.add("classname");
+con also remove
+toggle
+
+innerHTML can change all the html in a tag (bad practice)
+
+.parentElement
+
+it is good to cache selectors in variables
+
+
+
+BACKGROUND GENERATOR
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
