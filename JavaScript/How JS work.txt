@@ -1,0 +1,18 @@
+
+
+Memory leak
+	this happens by having unused memory that fills the memory heap
+
+Single threaded language
+	this means there is one call-stack
+	this eliminates errors such as deadlocks
+
+stack overflow is when a stack overflows
+
+nonblocking
+	asynchronous
+	we can use functions that utilize an api to help us not block processes because of one large one
+
+event loop
+	"is thi callstack empty"
+		if so we go te the callback and add to the call stack
