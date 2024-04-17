@@ -4,3 +4,5 @@ JS
 		https://objectexplorer.netlify.app/
 logo maker
 	robofriends
+for hosting websites
+	https://www.netlify.com/pricing/

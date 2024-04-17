@@ -1,0 +1,4 @@
+
+data flows from top to bottom and never the other way around
+
+react uses a virtual DOM
